@@ -1,0 +1,42 @@
+
+/* Hover highlight */
+.leaflet-clickable {
+    opacity: 0;
+}
+
+.leaflet-clickable:hover {
+    opacity: 1;
+}
+
+/* Define hover tips style*/
+.custom-hover {
+}
+
+.custom-control-hover-label {
+	color: white;
+	text-shadow: -2px -2px 4px #036;
+}
+
+
+/* Define popup style*/
+.leaflet-popup-content-wrapper {
+	background-color: #036;
+	box-shadow: -2px -2px 2px white;
+}
+
+.leaflet-popup-close-button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;	
+}
+
+.leaflet-popup-content {
+	margin: 12px;
+}
+
+#popup-title {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+}
+
