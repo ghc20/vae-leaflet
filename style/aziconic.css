@@ -16,6 +16,7 @@
 
 .custom-control-hover-label {
 	color: white;
+	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(OffX=-2, OffY=-2, Color=#036)";
 	text-shadow: -2px -2px 4px #036;
 }
 
@@ -23,6 +24,7 @@
 /* Define popup style*/
 .leaflet-popup-content-wrapper {
 	background-color: #036;
+	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(OffX=-2, OffY=-2, Color=#FFFFFF)";
 	box-shadow: -2px -2px 2px white;
 }
 
