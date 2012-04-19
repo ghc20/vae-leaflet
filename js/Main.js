@@ -1,5 +1,4 @@
 var map;
-var wmsLayer;
 function init(){
 	map = new L.Map("map");
 	
@@ -18,14 +17,14 @@ function init(){
 	
 	/* WFS GeoJSON layer */
 	var wfsLayer = new L.GeoJSON.WFS("http://opengis.azexperience.org/geoserver/wfs", "vae:aziconic", {
-		pointToLayer: function(latlng) { return new L.CircleMarker(latlng, {
-												opacity: 1,
-												fillOpacity: 0,
-												radius: 16,
-												color: "#FFFF00",
-												weight: 5
-											}); 
-										},
+		pointToLayer: function(latlng) { 
+			return new L.Marker(latlng, { 
+				icon: new L.Icon({ 
+					iconUrl: "style/images/yellow-circle.png", 
+					iconSize: new L.Point(40, 40) 
+				}) 
+			});
+		},
 		popupObj: new JadeContent("templates/example.jade"),
 		popupOptions: { maxWidth: 1000, centered: true },
 		hoverFld: "name"
