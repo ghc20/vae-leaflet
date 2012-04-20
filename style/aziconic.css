@@ -16,7 +16,7 @@
 
 .custom-control-hover-label {
 	color: white;
-	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(OffX=-2, OffY=-2, Color=#003366)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#003366)";
 	text-shadow: -2px -2px 2px #036, 2px 2px 2px #036;
 }
 
