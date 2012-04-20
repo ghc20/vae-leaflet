@@ -16,7 +16,7 @@
 
 .custom-control-hover-label {
 	color: white;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#FFFFFF) progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#036";
+	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(OffX=-2, OffY=-2, Color=#003366)";
 	text-shadow: -2px -2px 2px #036, 2px 2px 2px #036;
 }
 
@@ -24,7 +24,7 @@
 /* Define popup style*/
 .leaflet-popup-content-wrapper {
 	background-color: #036;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#036) progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#FFFFFF)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Glow(Strength=2, Color=#FFFFFF)";
 	box-shadow: -2px -2px 2px white, 2px 2px 2px white;
 }
 
