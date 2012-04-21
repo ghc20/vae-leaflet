@@ -1,13 +1,13 @@
 
 /* Hover highlight */
 .leaflet-marker-icon {
-  	opacity: 0 !important;
   	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+  	background: no-repeat none !important;
 }
 
 .leaflet-marker-icon:hover {
-    opacity: 1 !important;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+    background: no-repeat url("../style/images/yellow-circle.png") !important;
 }
 
 /* Define hover tips style*/
